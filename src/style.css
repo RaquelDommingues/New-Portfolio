@@ -16,6 +16,10 @@ body {
 
 /*NavBar elemets*/
 
+#logo {
+    height: 100px;
+}
+
 .navbar .dropdown li a:hover {
     background-color: #B9AFA7;
     transition: ease-in 0.2s;
