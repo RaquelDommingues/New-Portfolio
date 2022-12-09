@@ -147,3 +147,19 @@ li {
     text-align: center;
     margin: auto;
 }
+
+/*Projects Page*/
+
+.project-wrapper {
+    margin: auto;
+}
+
+.projectTitle {
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+}
+
+.projectText {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+}
