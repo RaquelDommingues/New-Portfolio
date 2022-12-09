@@ -1,0 +1,149 @@
+/*General page*/
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(/src/images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*NavBar elemets*/
+
+.navbar .dropdown li a:hover {
+    background-color: #B9AFA7;
+    transition: ease-in 0.2s;
+}
+
+.projects-dropdown{
+    width: 100%;
+}
+
+li {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+
+  }
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: aliceblue;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in;
+  transform: scaleX(0);
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hover-underline-animation:active::after {
+    transform: translateY(2px);
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/*Home page - White box content and container*/
+.container {
+    margin: auto;
+    background-color: aliceblue;
+    width: 60%;
+    box-shadow: rgba(22, 28, 36, 0.35) 0px 5px 15px;
+    border-radius: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.content {
+    border-right: 6px solid #161c24;
+    border-left: 6px solid #161c24;
+    text-align: center;
+}
+
+#name {
+    padding-bottom: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 4vw;
+}
+
+#me {
+    max-width: 70%;
+    max-height: 50%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.introText {
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 2vw;
+}
+
+#feature-projects {
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    font-size: 3vw;
+    padding-top: 20px;
+}
+
+.card-title {
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.card-text {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1vw;
+}
+
+/*About me Page*/
+
+.aboutMe {
+    margin-top: auto;
+    padding-top: 20px;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1vw;
+}
+
+#aboutMePhoto {
+    max-width: 90%;
+    max-height: 70%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.aboutMeText {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+}
+
+.aboutMeTitle {
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+}
+
+.about-section-content {
+    text-align: center;
+    margin: auto;
+}
