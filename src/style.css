@@ -192,3 +192,16 @@ li {
     padding: 10px 14px;
     border-radius: 50%;
 }
+
+/*Contacts*/
+
+.contactsTitle{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.contactsText {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+}
