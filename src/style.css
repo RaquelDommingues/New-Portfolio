@@ -87,12 +87,11 @@ li {
 #name {
     padding-bottom: 20px;
     font-family: 'Satisfy', cursive;
-    font-size: 4vw;
 }
 
 #me {
-    max-width: 70%;
-    max-height: 50%;
+    max-width: 30%;
+    max-height: 10%;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -100,25 +99,22 @@ li {
 .introText {
     padding-top: 20px;
     font-family: 'Arima Madurai', cursive;
-    font-size: 2vw;
+    font-size: 20px;
 }
 
 #feature-projects {
     font-family: 'Arima Madurai', cursive;
     font-weight: bold;
-    font-size: 3vw;
     padding-top: 20px;
 }
 
 .card-title {
     font-family: 'Arima Madurai', cursive;
     font-weight: bold;
-    font-size: 2vw;
 }
 
 .card-text {
     font-family: 'Arima Madurai', cursive;
-    font-size: 1vw;
 }
 
 /*About me Page*/
@@ -166,4 +162,33 @@ li {
 .projectText {
     font-family: 'Arima Madurai', cursive;
     font-size: 20px;
+}
+
+/*Footer*/
+
+.workInquiry{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.footerText {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+}
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #B9AFA7;
+    font-size: 12px;
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    color: aliceblue;
+    background-color: #161c24;
+    padding: 10px 14px;
+    border-radius: 50%;
 }
